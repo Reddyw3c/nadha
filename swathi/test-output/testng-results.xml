@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="1" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[APPLICATION OPENED]]>
+    </line>
+    <line>
+      <![CDATA[VERIFIED APPLICATION]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN COMPLETED]]>
+    </line>
+    <line>
+      <![CDATA[VERIFIED LOGIN COMPLETED]]>
+    </line>
+    <line>
+      <![CDATA[SEARCH HOTEL COMPLETED]]>
+    </line>
+    <line>
+      <![CDATA[VERIFIED SEARCH HOTEL]]>
+    </line>
+    <line>
+      <![CDATA[SELECT HOTEL COMPLETED]]>
+    </line>
+    <line>
+      <![CDATA[Book A Hotel Completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-27T10:08:03 IST" name="Suite" finished-at="2023-09-27T10:08:22 IST" duration-ms="19308">
+    <groups>
+    </groups>
+    <test started-at="2023-09-27T10:08:03 IST" name="Test" finished-at="2023-09-27T10:08:22 IST" duration-ms="19308">
+      <class name="Extent_Reports.Adactin">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:Extent_Reports.Adactin@31190526]" started-at="2023-09-27T10:08:03 IST" name="openApplication" finished-at="2023-09-27T10:08:11 IST" duration-ms="8334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[APPLICATION OPENED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyOpenApplication()[pri:1, instance:Extent_Reports.Adactin@31190526]" started-at="2023-09-27T10:08:11 IST" name="verifyOpenApplication" finished-at="2023-09-27T10:08:12 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFIED APPLICATION]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOpenApplication -->
+        <test-method signature="loginApplication(java.lang.String,java.lang.String)[pri:2, instance:Extent_Reports.Adactin@31190526]" started-at="2023-09-27T10:08:12 IST" name="loginApplication" finished-at="2023-09-27T10:08:12 IST" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nadhamunireddy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[836052]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN COMPLETED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyLogin()[pri:3, instance:Extent_Reports.Adactin@31190526]" started-at="2023-09-27T10:08:12 IST" name="verifyLogin" finished-at="2023-09-27T10:08:13 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFIED LOGIN COMPLETED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="searchHotel()[pri:4, instance:Extent_Reports.Adactin@31190526]" started-at="2023-09-27T10:08:13 IST" name="searchHotel" finished-at="2023-09-27T10:08:20 IST" duration-ms="7405" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SEARCH HOTEL COMPLETED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+        <test-method signature="verifySearchHotel()[pri:5, instance:Extent_Reports.Adactin@31190526]" started-at="2023-09-27T10:08:20 IST" name="verifySearchHotel" finished-at="2023-09-27T10:08:20 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFIED SEARCH HOTEL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotel -->
+        <test-method signature="selectHotel()[pri:6, instance:Extent_Reports.Adactin@31190526]" started-at="2023-09-27T10:08:20 IST" name="selectHotel" finished-at="2023-09-27T10:08:21 IST" duration-ms="1111" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SELECT HOTEL COMPLETED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectHotel -->
+        <test-method signature="BookAHotel()[pri:7, instance:Extent_Reports.Adactin@31190526]" started-at="2023-09-27T10:08:21 IST" name="BookAHotel" finished-at="2023-09-27T10:08:22 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Book A Hotel Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BookAHotel -->
+        <test-method signature="verifyBookAHotel()[pri:8, instance:Extent_Reports.Adactin@31190526]" started-at="2023-09-27T10:08:22 IST" name="verifyBookAHotel" finished-at="2023-09-27T10:08:22 IST" duration-ms="32" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Extent_Reports.Adactin.verifyBookAHotel(Adactin.java:104)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookAHotel -->
+        <test-method signature="bookingConformation()[pri:9, instance:Extent_Reports.Adactin@31190526]" started-at="2023-09-27T10:08:22 IST" name="bookingConformation" finished-at="2023-09-27T10:08:22 IST" depends-on-methods="Extent_Reports.Adactin.verifyBookAHotel" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Extent_Reports.Adactin.bookingConformation() on instance Extent_Reports.Adactin@31190526 depends on not successfully finished methods 
+[Extent_Reports.Adactin.verifyBookAHotel() on instance Extent_Reports.Adactin@31190526]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Extent_Reports.Adactin.bookingConformation() on instance Extent_Reports.Adactin@31190526 depends on not successfully finished methods 
+[Extent_Reports.Adactin.verifyBookAHotel() on instance Extent_Reports.Adactin@31190526]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingConformation -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:Extent_Reports.Adactin@31190526]" started-at="2023-09-27T10:08:22 IST" name="closeApplication" finished-at="2023-09-27T10:08:22 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Extent_Reports.Adactin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
